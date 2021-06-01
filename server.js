@@ -85,7 +85,7 @@ orderItems: [
 app.get('/api/orders',  async (req, res) => {
 
   const orders = await Order.find({isDelivered: false, isCanceled: false});
-  return orders;
+  res.send (orders);
 })
 
 app.put('/api/orders/:id', async (req, res) => {
