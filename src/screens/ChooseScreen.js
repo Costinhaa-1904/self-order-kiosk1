@@ -26,7 +26,7 @@ export default function ChooseScreen(props) {
                     <CardActionArea onClick={()=> chooseHandler('Eat in')}>
                         <CardMedia component="img"
                         alt="Eat in"
-                        image="/images/justeat.jpg"
+                        image="/images/test.JPG"
                         className={styles.media}
                         />
                         <CardContent>
